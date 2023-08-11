@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C62OOyYRMlOqKJVMqIwafr0uQxYEPwM++bbakJYf8n/B362QKKeUPY7WFfcYHcLNadfKb764W29Rev3xpDI/Vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ангелина\\OneDrive\\Рабочий стол\\Колледж\\практика 01.02.22\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ангелина\\.nuget\\packages\\bouncycastle\\1.8.6.1\\bouncycastle.1.8.6.1.nupkg.sha512",
+    "C:\\Users\\Ангелина\\.nuget\\packages\\excellibrary\\1.2011.7.31\\excellibrary.1.2011.7.31.nupkg.sha512",
+    "C:\\Users\\Ангелина\\.nuget\\packages\\expertxls.excellibrary.x64\\6.0.2\\expertxls.excellibrary.x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\Ангелина\\.nuget\\packages\\itextsharp\\5.5.13.2\\itextsharp.5.5.13.2.nupkg.sha512",
+    "C:\\Users\\Ангелина\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+    "C:\\Users\\Ангелина\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

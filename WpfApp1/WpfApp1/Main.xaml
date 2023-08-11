@@ -1,0 +1,166 @@
+﻿<Window x:Class="WpfApp1.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Culture Project" Height="590" Width="1000" Loaded="Window_Loaded">
+    <Grid>
+        <TabControl x:Name="tabControl" TabStripPlacement="Left" Margin="16,10,10,10" Background="White">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TabItem}">
+                                <Grid>
+                                    <Border Name="Border" Background="#8dcfef" Margin="2,2,-8,0" CornerRadius="10">
+                                        <ContentPresenter x:Name="ContentSite" ContentSource="Header" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="2,2,12,2" RecognizesAccessKey="True"/>
+                                    </Border>
+                                    <Rectangle Height="100" Width="10" Margin="0,0,-10,0" VerticalAlignment="Bottom" HorizontalAlignment="Right" StrokeThickness="0" Fill="#e9e9e9"/>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="ContentSite" Property="Width" Value="30" />
+                                        <Setter TargetName="Border" Property="Background" Value="#e9e9e9" />
+                                        <Setter Property="FontWeight" Value="Bold" />
+                                        <Setter Property="Foreground" Value="#b7bcc0" />
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter TargetName="Border" Property="Background" Value="#7c7b89" />
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="true">
+                                        <Setter Property="FontWeight" Value="Bold" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="HeaderTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <ContentPresenter Content="{TemplateBinding Content}">
+                                    <ContentPresenter.LayoutTransform>
+                                        <RotateTransform Angle="270" />
+                                    </ContentPresenter.LayoutTransform>
+                                </ContentPresenter>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Background" Value="#b9e6f7" />
+                    <Setter Property="Foreground" Value="#0b7fab" />
+                    <Setter Property="Height" Value="90" />
+                    <Setter Property="Margin" Value="0" />
+                    <Setter Property="Padding" Value="0" />
+                    <Setter Property="FontSize" Value="10" />
+                    <Setter Property="VerticalAlignment" Value="Top" />
+                    <Setter Property="HorizontalAlignment" Value="Right" />
+                    <Setter Property="UseLayoutRounding" Value="False" />
+                </Style>
+                <Style x:Key="tabGrids">
+                    <Setter Property="Grid.Background" Value="#e9e9e9" />
+                    <Setter Property="Grid.Margin" Value="6,10,10,10" />
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="Актёры" x:Name="MyTabItem1">
+                <Grid Style="{StaticResource tabGrids}">
+                    <DataGrid Name="data" Margin="344,0,0,0" BorderBrush="White" BorderThickness="3" SelectionChanged="data_SelectionChanged" CanUserSortColumns="True"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="famTB" HorizontalAlignment="Left" Margin="110,75,0,0" Text="Фамилия" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorFam" HorizontalAlignment="Left" Margin="65,94,0,0" VerticalAlignment="Top" Width="260" Height="21"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="imTB" HorizontalAlignment="Left" Margin="110,125,0,0" Text="Имя" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="otchTB" HorizontalAlignment="Left" Margin="110,174,0,0" Text="Отчество" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White"  x:Name="insertBtn" Content="Добавить" HorizontalAlignment="Left" Margin="80,311,0,0" VerticalAlignment="Top" Click="insertBtn_Click" Width="180"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="updateBtn" Content="Обновить" HorizontalAlignment="Left" Margin="80,359,0,0" VerticalAlignment="Top" Click="updateBtn_Click" Width="180"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="deleteBtn" Content="Удалить" HorizontalAlignment="Left" Margin="80,405,0,0" VerticalAlignment="Top" Click="deleteBtn_Click" Width="180"/>
+                    <DatePicker HorizontalAlignment="Left" Name="date" Margin="110,224,0,0" VerticalAlignment="Top" Width="120" DisplayDateStart="1922/12/31" DisplayDateEnd="2003/12/31" />
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorName_Copy" HorizontalAlignment="Left" Margin="65,144,0,0" VerticalAlignment="Top" Width="260" Height="25" />
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorOtch_Copy1" HorizontalAlignment="Left" Margin="65,193,0,0" VerticalAlignment="Top" Width="260" Height="26" />
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorDate_Copy" HorizontalAlignment="Left" Margin="110,249,0,0" VerticalAlignment="Top" Width="120" Height="26" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Организаторы"  x:Name="MyTabItem2" MouseDoubleClick="tab2_Click">
+                <Grid Style="{StaticResource tabGrids}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="49*"/>
+                        <RowDefinition Height="169*"/>
+                        <RowDefinition Height="310*"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="data1" Margin="344,0,0,0" BorderBrush="White" BorderThickness="3" SelectionChanged="data1_SelectionChanged" Grid.RowSpan="3" CanUserSortColumns="True"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="famManagerTB" HorizontalAlignment="Left" Margin="110,33,0,0" Text="Фамилия" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="imManagerTB" HorizontalAlignment="Left" Margin="110,72,0,0" Text="Имя" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="otchManagerTB" HorizontalAlignment="Left" Margin="110,111,0,0" Text="Отчество" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White"  x:Name="insertManagerBtn" Content="Добавить" HorizontalAlignment="Left" Margin="80,93,0,0" VerticalAlignment="Top" Click="insertManagerBtn_Click" Width="180" Grid.Row="2"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="updateManagerBtn" Content="Обновить" HorizontalAlignment="Left" Margin="80,141,0,0" VerticalAlignment="Top" Click="updateManagerBtn_Click" Width="180" Grid.Row="2"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="deleteManagerBtn" Content="Удалить" HorizontalAlignment="Left" Margin="80,187,0,0" VerticalAlignment="Top" Click="deleteManagerBtn_Click" Width="180" Grid.Row="2"/>
+                    <TextBox MaxLength="10" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="loginManagerTB" HorizontalAlignment="Left" Margin="110,152,0,0" Text="Логин" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.RowSpan="2" Grid.Row="1"/>
+                    <TextBox MaxLength="12" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="passManagerTB" HorizontalAlignment="Left" Margin="110,23,0,0" Text="Пароль" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="2"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorManFam" HorizontalAlignment="Left" Margin="65,52,0,0" VerticalAlignment="Top" Width="260" Grid.Row="1" Height="20"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorManName_Copy" HorizontalAlignment="Left" Margin="65,91,0,0" VerticalAlignment="Top" Width="260" Grid.Row="1" Height="20"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorManOtch_Copy1" HorizontalAlignment="Left" Margin="65,130,0,0" VerticalAlignment="Top" Width="260" Grid.Row="1" Height="22"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorManlogin_Copy2" HorizontalAlignment="Left" Margin="65,2,0,0" VerticalAlignment="Top" Width="260" Grid.Row="2" Height="21"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorManPass_Copy3" HorizontalAlignment="Left" Margin="65,41,0,0" VerticalAlignment="Top" Width="260" Grid.Row="2" Height="22"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Концерты" x:Name="MyTabItem3" MouseDoubleClick="tab3_Click">
+                <Grid Style="{StaticResource tabGrids}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="133*"/>
+                        <RowDefinition Height="396*"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="data2" Margin="344,0,0,0" BorderBrush="White" BorderThickness="3" Grid.RowSpan="2" SelectionChanged="data2_SelectionChanged" CanUserSortColumns="True"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White"  x:Name="insertConcertBtn" Content="Добавить" HorizontalAlignment="Left" Margin="80,259,0,0" VerticalAlignment="Top" Click="insertConcertBtn_Click" Width="180" Grid.Row="1"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="updateConcertBtn" Content="Обновить" HorizontalAlignment="Left" Margin="80,298,0,0" VerticalAlignment="Top" Click="updateConcertBtn_Click" Width="180" Grid.Row="1"/>
+                    <Button BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="deleteConcertBtn" Content="Удалить" HorizontalAlignment="Left" Margin="80,336,0,0" VerticalAlignment="Top" Click="deleteConcertBtn_Click" Width="180" Grid.Row="1"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="titleTB" HorizontalAlignment="Left" Margin="110,46,0,0" Text="Название" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox MaxLength="13" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="priceTB" HorizontalAlignment="Left" Margin="110,162,0,0" Text="Стоимость" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="110,207,0,0" VerticalAlignment="Top" Width="120" Name="dateConcert" Grid.Row="1" DisplayDateStart="2022/02/01" DisplayDateEnd="2022/03/01"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorGenre" HorizontalAlignment="Left" Margin="66,114,0,0" VerticalAlignment="Top" Width="250" Height="26" Grid.RowSpan="2"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="rewardCBerror" HorizontalAlignment="Left" Margin="110,82,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" Height="24"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="placeCBerror" HorizontalAlignment="Left" Margin="110,33,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" Height="25"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorPrice" HorizontalAlignment="Left" Margin="66,186,0,0" VerticalAlignment="Top" Width="250" Grid.Row="1" Height="20"/>
+                    <TextBox MaxLength="30" BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="GenreTB" HorizontalAlignment="Left" Margin="110,93,0,0" Text="Жанр" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="PlaceCB" HorizontalAlignment="Left" Margin="110,10,0,0" Text="Место" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="errorTitle" HorizontalAlignment="Left" Margin="66,69,0,0" VerticalAlignment="Top" Width="250" Height="19"/>
+                    <ComboBox BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="RewardCB" HorizontalAlignment="Left" Margin="110,61,0,0" Text="Место" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="Dateerror_Copy" HorizontalAlignment="Left" Margin="110,231,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" Height="28"/>
+                    <ComboBox BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" x:Name="ActorCB" HorizontalAlignment="Left" Margin="110,108,0,0" Text="Место" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <Label Foreground="#FFF93904" FontSize="7" x:Name="ActorError" HorizontalAlignment="Left" Margin="110,127,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" Height="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Афиша" x:Name="MyTabItem4" MouseDoubleClick="tab4_Click" >
+                <Grid Style="{StaticResource tabGrids}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="67*"/>
+                        <RowDefinition Height="21*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="455*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid  Name="data3" Margin="40,73,38,66" BorderBrush="White" BorderThickness="3" SelectionChanged="data3_SelectionChanged" Grid.RowSpan="2" CanUserSortColumns="True" />
+                    <CheckBox Content="Фильтр по стоимости" HorizontalAlignment="Left" Margin="40,53,0,0" VerticalAlignment="Top" Height="18" Width="149" BorderBrush="White" BorderThickness="3" Foreground="Gray" x:Name="checkTB" Checked="checkTB_Checked" Unchecked="checkTB_Unchecked_1"/>
+                    <TextBox x:Name="TextBox_SearchLine" VerticalAlignment="Top" TextChanged="TextBox_SearchLine_TextChanged"  Margin="40,18,122,0" Height="27"  BorderBrush="White" BorderThickness="3" Foreground="#85c3fe"  />
+                    <Button Margin="800,18,0,0" BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="searchBtn" Content="Поиск" HorizontalAlignment="Left" VerticalAlignment="Top" Click="searchBtn_Click" Width="72" Height="27"/>
+                    <Button Margin="43,66,0,0" BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="exportBtn" Content="Экспорт" HorizontalAlignment="Left" VerticalAlignment="Top" Click="exportBtn_Click" Width="100" Height="27" Grid.Row="1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Награждение" x:Name="MyTabItem5" MouseDoubleClick="tab5_Click">
+                <Grid Style="{StaticResource tabGrids}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="37*"/>
+                        <RowDefinition Height="491*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="455*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Name="data4" Margin="40,38,38,64" BorderBrush="White" BorderThickness="3" Grid.Row="1" CanUserSortColumns="True"/>
+                    <CheckBox Content="Фильтр по наградам" HorizontalAlignment="Left" Margin="40,16,0,0" VerticalAlignment="Top" Height="18" Width="149" BorderBrush="White" BorderThickness="3" Foreground="Gray" x:Name="checkAwardTB" Checked="checkAwardTB_Checked" Unchecked="checkAwardTB_Unchecked_1" Grid.Row="1"/>
+                    <TextBox x:Name="TextBox1_SearchLine" VerticalAlignment="Top" TextChanged="TextBox1_SearchLine_TextChanged" Margin="40,18,122,0" Height="27"  BorderBrush="White" BorderThickness="3" Foreground="#85c3fe" Grid.RowSpan="2"  />
+                    <Button Margin="800,18,0,0" BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="searchBtn1" Content="Поиск" HorizontalAlignment="Left" VerticalAlignment="Top" Click="searchBtn1_Click" Width="72" Height="27" Grid.RowSpan="2"/>
+                    <Button Margin="43,434,0,0" BorderBrush="White" BorderThickness="3" Foreground="#b7bcc0" Background="White" x:Name="exportBtn1" Content="Экспорт" HorizontalAlignment="Left" VerticalAlignment="Top" Click="exportBtn1_Click" Width="100" Height="27" Grid.Row="1"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,84 @@
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Register.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Register.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\itextsharp.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WebDriver.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\ExcelLibrary.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\expertxls.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\ExcelLibrary.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\expertxls.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\itextsharp.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WebDriver.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Register.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Register.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\ExcelLibrary.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\expertxls.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\itextsharp.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\bin\Debug\WebDriver.dll
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Main.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Register.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Main.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\Register.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\Колледж\практика 01.02.22\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

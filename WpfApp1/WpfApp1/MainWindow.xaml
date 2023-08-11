@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Culture Project" Height="500" Width="1000" Background="#FFF7F7F7">
+    <Grid>
+        <Label Foreground="#85c3fe" FontSize="30" x:Name="errorTitle1" FontWeight="Bold" Content="Авторизация" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="220"/>
+        <TextBox MaxLength="10" BorderBrush="#e9e9e9" BorderThickness="3" FontSize="20" Foreground="#85c3fe" x:Name="login" HorizontalAlignment="Center" Margin="0,124,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
+        <PasswordBox MaxLength="12" x:Name="password" BorderBrush="#e9e9e9" BorderThickness="3" FontSize="20" Foreground="#85c3fe" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="364" Margin="0,234,0,0"/>
+        <Label Foreground="#85c3fe" FontSize="20" x:Name="errorTitle1_Copy" Content="Логин" HorizontalAlignment="Left" Margin="318,87,0,0" VerticalAlignment="Top" Width="188"/>
+        <Label Foreground="#85c3fe" FontSize="20" x:Name="errorTitle1_Copy1" Content="Пароль" HorizontalAlignment="Left" Margin="318,197,0,0" VerticalAlignment="Top" Width="188"/>
+        <Label Foreground="#FFF93904" FontSize="10" x:Name="errorLogin" HorizontalAlignment="Center" Margin="0,157,0,0" VerticalAlignment="Top" Width="364" Height="40"/>
+        <Label Foreground="#FFF93904" FontSize="10" x:Name="errorPass" HorizontalAlignment="Center" Margin="0,267,0,0" VerticalAlignment="Top" Width="364" Height="36"/>
+        <Button BorderBrush="#FFF7F7F7" BorderThickness="1" Foreground="White" FontWeight="Bold" Background="#FFB5D6F6" FontSize="20" x:Name="insertBtn" Content="Войти" HorizontalAlignment="Center" Margin="0,308,0,0" VerticalAlignment="Top" Click="signIn" Width="220" Height="40"/>
+        <Button  BorderBrush="#FFF7F7F7" BorderThickness="1" Foreground="White" FontWeight="Bold" Background="#FFB5D6F6" FontSize="18" x:Name="insertBtn_Copy" Content="Зарегистрироваться" HorizontalAlignment="Center" Margin="0,368,0,0" VerticalAlignment="Top" Click="insertBtn_Copy_Click" Width="220" Height="40"/>
+    </Grid>
+</Window>
